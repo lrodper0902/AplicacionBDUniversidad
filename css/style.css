@@ -1,0 +1,133 @@
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(27, 79, 114);
+    font-size: 12.5px;
+}
+.titulo{
+    font-size: 36.5px;
+}
+
+/* Estilos para los encabezados */
+h1, h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Estilos para las tablas */
+table{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+
+}
+
+p{
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.tituloMedio{
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+table th {
+    background-color: rgb(53, 141, 122);
+    color: #ffffff;
+
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+li{
+    font-size: 16px;
+}
+
+.boton{
+    border: 0px;
+    color: #ffffff;
+    border-radius:3px;
+    padding:4px 10px;
+    background:rgb(0, 89, 116);
+    box-shadow:0 4px 8px 0px rgb(0, 0, 0, 0.4);
+    font-size: 14px;
+}
+
+.botonCenter{
+    border: 0px;
+    color: #ffffff;
+    border-radius:3px;
+    padding:10px 20px;
+    background:rgb(86, 134, 148);
+    box-shadow:0 4px 8px 0px rgb(0, 0, 0, 0.4);
+    font-size: 18px;
+}
+
+.botonCenter:hover{
+    background:rgb(33, 132, 145) ;
+
+}
+
+.boton:hover {
+    background:  rgb(0, 68, 88);
+    color: rgb(255, 255, 255);
+    box-shadow:0 4px 8px 0px rgb(0, 0, 0, 0.8);
+}
+
+table{
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+
+.consulta{
+    width: 40%;
+}
+.letra{
+    color: black;
+    font-size: 14px;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-align: start;
+
+}
+
+.titPeq{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color:  rgb(29, 78, 67);
+}
+
+.container{
+    display:flex;
+    flex-flow: wrap column;
+    align-items: start;
+}
+
+th{
+    font-weight: 100!important;
+}
+
+

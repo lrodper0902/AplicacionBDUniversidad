@@ -1,0 +1,82 @@
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(27, 79, 114);
+    font-size: 12px;
+}
+
+/* Estilos para los encabezados */
+h1, h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Estilos para las tablas */
+table{
+    width: 30%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    color: black;
+    border-radius: 18px;
+  
+}
+p{
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.tituloMedio{
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: rgb(53, 141, 122);
+    color: #ffffff;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+tr td input{
+    background-color: rgb(230, 230, 230);
+    border-radius: 3px;
+
+}
+
+.boton{
+    border: 0px;
+    color: #ffffff;
+    border-radius:2px;
+    padding:8px 12px;
+    background:  rgb(0, 89, 116);
+    box-shadow:0 4px 8px 0px rgb(0, 0, 0, 0.4);
+    font-size: 16px;
+
+}
+
+.boton:hover {
+    background:  rgb(0, 68, 88);
+    color: rgb(255, 255, 255);
+    box-shadow:0 4px 8px 0px rgb(0, 0, 0, 0.8);
+   
+}
